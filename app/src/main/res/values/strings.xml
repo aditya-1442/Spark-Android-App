@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Spark</string>
+    <string name="logo_of_mine">Logo of Mine</string>
+    <string name="enter_the_email">Enter the Email</string>
+    <string name="enter_the_password">Enter the Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="write_something_here">Write Something Here</string>
+    <string name="post">Post</string>
+    <string name="todo">TODO</string>
+    <string name="aditya">aditya</string>
+    <string name="uid">UID</string>
+    <string name="message">Message</string>
+    <string name="updates">Updates</string>
+    <string name="name_of_the_sender">Name of the Sender</string>
+    <string name="enjoy_meme">Enjoy MEME</string>
+    <string name="search_on_google">Search on Google</string>
+    <string name="fdf">TODO</string>
+</resources>

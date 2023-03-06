@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/layoff"
+    android:layout_height="match_parent"
+    tools:context=".CreatePostActivity">
+
+    <EditText
+        android:id="@+id/postInput"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/editextborder"
+        android:gravity="top"
+        android:hint="@string/write_something_here"
+        android:textColorHint="@color/white"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="@color/yellow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/post"
+        android:textColor="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postInput"
+        app:layout_constraintVertical_bias="0.058"
+        tools:ignore="VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="326dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postBtn"
+        app:layout_constraintVertical_bias="0.262"
+        app:srcCompat="@drawable/remvovespark"
+        android:contentDescription="@string/fdf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
